@@ -1,6 +1,6 @@
 /*reset and common codes starts here*/
 :root{
-    
+
 }
 
 * {
@@ -27,4 +27,52 @@ body {
   margin: auto;
   box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
 }
+
+a{
+
+}
 /*reset and common codes ends here*/
+
+/*Header design starts here*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 5vh;
+}
+
+.logo-figure{
+    border: 1px solid #fff;
+}
+
+.logo{
+    font-size: 4rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li{
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+nav ul li:hover{
+    background-color: brown;
+    border-radius: 0.6rem;
+}
+
+.nav__link{
+font-size: 1.8rem;
+color: #fff;
+cursor: pointer;
+}
+/*Header design ends here*/
